@@ -24,7 +24,3 @@ export default {
   },
   plugins: [],
 }
-
-// All-background : #FEFAE0 heading-color : #AE2012 hover-underline : #9B2226 text-color: #6F1D1B section-background: #F8EDEB button-color : white background-color: #450920
-
-// button:hover { background-color: #F8EDEB; (section-background) color: #AE2012; (heading-color) }
