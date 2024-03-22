@@ -7,7 +7,6 @@ export default function MobNavBar({ isOpen, setIsOpened }){
         document.getElementById(sectionId).scrollIntoView({ behvaior: 'smooth' })
     }
 
-    console.log(typeof setIsOpened)
     return (
         <div className="w-screen fixed top-0 z-20">
             <div className="w-1/2 h-screen flex flex-col p-8 bg-overall">
