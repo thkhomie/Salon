@@ -17,7 +17,6 @@ export default function Testimonal() {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        speed: 800,
         autoplaySpeed: 4000,
         responsive: [
             {
