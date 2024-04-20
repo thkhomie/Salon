@@ -1,6 +1,6 @@
 import logo from '../assets/logo.svg'
 
-export default function MobNavBar({ isOpen, setIsOpened }){
+export default function MobNavBar({ isOpen, setIsOpened }) {
 
     const handleSelect = (sectionId) => {
         if (isOpen) setIsOpened(false)
@@ -10,7 +10,9 @@ export default function MobNavBar({ isOpen, setIsOpened }){
     return (
         <div className="w-screen fixed top-0 z-20">
             <div className="w-1/2 h-screen flex flex-col p-8 bg-overall">
-                <img src={logo} alt="logo" className="w-16 mb-8 rounded size-12" />
+                <a href="/">
+                    <img src={logo} alt="logo" className="w-16 mb-8 rounded size-12" />
+                </a>
 
                 <ul>
                     <li className="mb-5">
